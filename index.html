@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Tabs</title>
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+<h1 style="text-align: center ;padding: auto ;">SELECT &nbsp YOUR CHOICE</h1>
+
+    <div class="tabs">
+        <div class="tab" onclick="showProducts('Men')"><img src="" alt="" srcset="">Men</div>
+        <div class="tab" onclick="showProducts('Women')">Women</div>
+        <div class="tab" onclick="showProducts('Kids')">Kids</div>
+    </div>
+
+    <div class="product-cards-container">
+        <div class="product-card Men active">
+            <!-- populated dynamically from API -->
+        </div>
+
+        <div class="product-card Women">
+            <!-- populated dynamically from API -->
+        </div>
+
+        <div class="product-card Kids">
+            <!-- dynamically from API -->
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"/>
+</body>
+
+</html>
